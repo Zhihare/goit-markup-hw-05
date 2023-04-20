@@ -745,8 +745,8 @@ body {
 
 }
 
-.port-link:hover .pogr-par-img,
-.port-link:focus .pogr-par-img {
+.portfolio-img-animation:hover .pogr-par-img,
+.portfolio-img-animation:focus .pogr-par-img {
     transform: translate(0, 0);
 }
 
