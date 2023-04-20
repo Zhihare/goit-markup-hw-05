@@ -14,6 +14,7 @@
     --span-footer-cl: #f4f4fd;
     --header-cl: #FFFFFF;
 
+    --z-index-header: 5;
     --z-index-modal: 10;
     --z-index-modal-close: 20;
 }
@@ -83,7 +84,9 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    background: var(--background-color);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    z-index: var(--z-index-header);
 }
 
 .head-flex {
