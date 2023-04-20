@@ -292,7 +292,7 @@ body {
 
 .modal {
     position: absolute;
-    top: 88px;
+    top: calc(50% - 278px);
     left: calc(50% - 204px);
 
     width: 408px;
